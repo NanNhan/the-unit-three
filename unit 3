@@ -1,0 +1,53 @@
+#1.0
+# a = int(input("请输入a的值:"))
+# b = int(input("请输入b的值:"))
+# c = int(input("请输入c的值:"))
+# if a<b:
+#     if a<c:
+#         MIN = a
+#     else:
+#         MIN = c
+# else:
+#     if b<c:
+#         MIN = b
+#     else:
+#         MIN = c
+# print("MIN = ",MIN)
+
+#2.0
+# i = 1
+# s = 0
+# n = int(input())
+# while i<=n:
+#     s = s + i
+#     i = i + 1
+# print(s)
+
+#3.0
+# for x in range(1,10):
+#     for y in range(1,x + 1):
+#         print(x,"*",y,"=",x*y,end=" ")
+#     print("")
+
+#4.0
+# n = 1
+# s = 0
+# while True:
+#     s+=n
+#     if s>10000:
+#         break
+#     n+=1
+# print("最小整数n为",n,",使得1+2+3+...+n>10000。")
+
+# player1 = int(input("请用户1输入:"))
+# player2 = int(input("请用户2输入:"))
+#
+# if player1<0 or player1>2 or player1<0 or player2>2:
+#     print("请遵守规则")
+# else:
+#     if ((player1 == 0) and (player2 == 2)) or ((player1 == 1) and (player2)) or ((player1 == 2) and (player2 == 1)):
+#         print("用户1获胜")
+#     elif player1 == player2:
+#         print("平局，再来一局")
+#     else:
+#         print("用户2获胜")
