@@ -51,3 +51,11 @@
 #         print("平局，再来一局")
 #     else:
 #         print("用户2获胜")
+# 第二个
+for cock in range(0,20 + 1):
+    for hen in range(0,33+1):
+        for biddy in range(3,99+1):
+            if 5*cock+3*hen+biddy/3:
+                if(cock+hen+biddy)==100:
+                    if biddy%3 == 0:
+                        print("鸡翁:",cock,"鸡母:",hen,"鸡雏:",biddy)
